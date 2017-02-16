@@ -16,6 +16,8 @@ public class Demo
 		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("http://www.google.com");
+		String t = driver.getTitle();
+		System.out.println(t);
 	}
 		@AfterMethod
 		public void m2()
