@@ -18,6 +18,7 @@ public class Demo
 		driver.get("http://www.google.com");
 		String t = driver.getTitle();
 		System.out.println(t);
+		String s= driver.getCurrentUrl();
 	}
 		@AfterMethod
 		public void m2()
