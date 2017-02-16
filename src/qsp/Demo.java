@@ -19,6 +19,7 @@ public class Demo
 		String t = driver.getTitle();
 		System.out.println(t);
 		String s= driver.getCurrentUrl();
+		// from first user
 	}
 		@AfterMethod
 		public void m2()
